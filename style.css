@@ -161,7 +161,7 @@ body {
 }
 #home h1 {
   font-family: "JosefinSans-Regular";
-  font-size: 45px;
+  font-size: 45;
   font-weight: bolder;
 }
 #home .twentypx {
@@ -1740,4 +1740,4 @@ body {
     margin-top: 40px;
     padding: 40px 40px 50px 40px;
   }
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=style.css.map */
