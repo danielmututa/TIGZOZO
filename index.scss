@@ -853,7 +853,12 @@ position: relative;
     .party{
         width: 334px;
         margin-left: 0px;
-        p{top: 66vh; font-size: 20px;}.two{display: none;}
+        p{
+            top: 66vh; font-size: 20px;
+        }
+        .two{
+            display: none;
+        }
     }
     .digital{
         width: 334px;
