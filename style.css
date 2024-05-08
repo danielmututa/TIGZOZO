@@ -556,6 +556,9 @@ body {
 #footer .fa-tw-lo .icons {
   margin-top: 6px;
 }
+#footer .fa-tw-lo .icons a {
+  text-decoration: none;
+}
 #footer .fa-tw-lo .icons .cone {
   font-size: 24px;
   color: white;
@@ -877,6 +880,9 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     overflow: hidden;
+  }
+  #footer .fa-tw-lo {
+    width: 125px;
   }
   #footer .fa-tw-lo p {
     font-size: 10px;
