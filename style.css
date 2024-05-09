@@ -105,7 +105,7 @@ body {
   color: black;
   font-family: "JosefinSans-Regular";
   text-decoration: none;
-  font-size: 21px;
+  font-size: 20px;
   margin-left: 15px;
 }
 .navigation .navbar span {
@@ -120,7 +120,7 @@ body {
   width: 65%;
 }
 .navigation .light {
-  margin-right: 93px;
+  margin-right: 115px;
   display: flex;
   justify-content: start;
   position: relative;
@@ -161,7 +161,7 @@ body {
 }
 #home h1 {
   font-family: "JosefinSans-Regular";
-  font-size: 45;
+  font-size: 45px;
   font-weight: bolder;
 }
 #home .twentypx {
@@ -171,15 +171,16 @@ body {
   font-size: 20px;
 }
 #home .htext {
+  width: 590px;
   position: relative;
   top: 15vh;
 }
 #home img {
   -o-object-fit: cover;
      object-fit: cover;
-  margin-left: 22px;
+  margin-left: 12px;
   height: 100%;
-  width: 22%;
+  width: 21%;
 }
 #home .one, #home .two, #home .three, #home .four {
   -o-object-fit: cover;
@@ -230,8 +231,8 @@ body {
   height: 260px;
   right: 4px;
 }
-#media h2 {
-  font-size: 25px;
+#media h3 {
+  font-size: 21px;
   font-family: "JosefinSans-Regular";
 }
 #media p {
@@ -258,6 +259,7 @@ body {
   background-size: cover;
 }
 #media .click p {
+  font-size: 18px;
   font-family: "JosefinSans-Regular";
   margin-top: 20px;
   margin-bottom: 29px;
@@ -286,8 +288,8 @@ body {
   display: flex;
   justify-content: center;
 }
-#services h2 {
-  font-size: 25px;
+#services h3 {
+  font-size: 21px;
   font-family: "JosefinSans-Regular";
   margin-bottom: 45px;
 }
@@ -311,6 +313,7 @@ body {
   height: 8%;
 }
 #services .party p {
+  font-weight: 600;
   color: white;
   font-size: 26px;
   font-family: "JosefinSans-Regular";
@@ -336,7 +339,8 @@ body {
   float: inline-end;
 }
 #services .digital h3 {
-  font-size: 22px;
+  margin-bottom: 22px;
+  font-size: 21px;
   font-family: "JosefinSans-Regular";
   position: relative;
   top: 26px;
@@ -358,6 +362,7 @@ body {
   margin-left: 13px;
 }
 #services .camera p {
+  font-weight: 600;
   font-size: 28px;
   font-family: "JosefinSans-Regular";
   position: relative;
@@ -379,12 +384,12 @@ body {
   margin-left: 80px;
   margin-right: 80px;
 }
-#clients h2 {
-  font-size: 25px;
+#clients h3 {
+  font-size: 21px;
   font-family: "JosefinSans-Regular";
 }
 #clients h3 {
-  font-size: 22px;
+  font-size: 21px;
   font-family: "JosefinSans-Regular";
   margin-top: 20px;
   margin-bottom: 20px;
@@ -450,13 +455,13 @@ body {
   justify-content: center;
 }
 .pics-instagram .head h2 {
-  font-size: 25px;
+  font-size: 21px;
   font-family: "JosefinSans-Regular";
   margin-left: 25px;
 }
 .pics-instagram .head .Instagram {
   font-family: "GreatVibes-Regular-webfont";
-  font-size: 25px;
+  font-size: 21px;
   margin-left: 25px;
 }
 .pics-instagram .images {
@@ -500,7 +505,7 @@ body {
 }
 .pics-instagram .tighbutoon h3 {
   font-family: "JosefinSans-Regular";
-  font-size: 22px;
+  font-size: 21px;
 }
 
 #footer {
@@ -518,7 +523,8 @@ body {
   color: white;
 }
 #footer h3 {
-  font-size: 22px;
+  font-weight: bolder;
+  font-size: 21px;
   font-family: "JosefinSans-Regular";
   color: white;
   margin-bottom: 10px;
@@ -665,6 +671,7 @@ body {
     padding-bottom: 10px;
   }
   #home .htext {
+    width: 357px;
     position: relative;
     top: 5vh;
   }
@@ -674,7 +681,7 @@ body {
     margin-right: 20px;
     overflow: hidden;
   }
-  #media h2 {
+  #media h3 {
     font-size: 18px;
   }
   #media p {
@@ -705,6 +712,7 @@ body {
     padding-top: 0px;
   }
   #media .click p {
+    font-size: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
   }
@@ -730,7 +738,7 @@ body {
     display: flex;
     flex-direction: column;
   }
-  #services h2 {
+  #services h3 {
     font-size: 18px;
     margin-bottom: 15px;
   }
@@ -800,7 +808,7 @@ body {
     margin-bottom: 8px;
     font-size: 15px;
   }
-  #clients h2 {
+  #clients h3 {
     font-size: 18px;
   }
   #clients .company {
@@ -891,7 +899,7 @@ body {
     width: 78px;
   }
   #footer .fa-tw-lo .icons {
-    margin-top: 4px;
+    margin-top: 8px;
   }
   #footer .fa-tw-lo .icons .cone {
     font-size: 18px;
@@ -901,27 +909,28 @@ body {
     margin-left: 6px;
   }
   #footer h3 {
-    font-size: 15px;
+    font-size: 18px;
   }
   #footer p {
     font-size: 10px;
     margin-top: 8px;
   }
   #footer .about {
-    height: 119px;
+    margin-top: 11px;
+    height: 123px;
     width: 159px;
   }
   #footer .line {
-    margin-top: 14px;
-    width: 60px;
+    margin-top: 16px;
+    width: 71px;
   }
   #footer .line3 {
-    width: 84px;
-    margin-top: 14px;
+    width: 100px;
+    margin-top: 18px;
   }
   #footer .line2 {
-    width: 84px;
-    margin-top: 16px;
+    width: 100px;
+    margin-top: 19px;
   }
 }
 @media (min-width: 569px) and (max-width: 768px) {
@@ -1027,8 +1036,8 @@ body {
     margin-right: 20px;
     overflow: hidden;
   }
-  #media h2 {
-    font-size: 22px;
+  #media h3 {
+    font-size: 18px;
   }
   #media p {
     width: 339px;
@@ -1040,23 +1049,24 @@ body {
     margin-top: 8px;
   }
   #media .twoimgs .tech {
-    display: none;
     right: 0px;
-    top: 73px;
-    height: 241px;
+    top: 86px;
+    height: 225px;
   }
   #media .twoimgs, #media .project {
     -o-object-fit: contain;
        object-fit: contain;
-    height: 330px;
+    height: 213px;
   }
   #media .twoimgs {
     display: flex;
   }
   #media .click p {
+    font-size: 13px;
     margin-bottom: 20px;
   }
   #media .click .watchvideo {
+    height: 303px;
     width: 340px;
     background-size: contain;
   }
@@ -1078,8 +1088,8 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  #services h2 {
-    font-size: 22px;
+  #services h3 {
+    font-size: 18px;
     margin-bottom: 20px;
   }
   #services .party {
@@ -1108,6 +1118,7 @@ body {
     font-size: 13px;
   }
   #services .digital h3 {
+    margin-bottom: 0px;
     font-size: 18px;
   }
   #services .digital img {
@@ -1151,7 +1162,7 @@ body {
     font-size: 18px;
   }
   #clients h2 {
-    font-size: 22px;
+    font-size: 18px;
   }
   #clients .company {
     top: 20px;
@@ -1188,7 +1199,7 @@ body {
   }
   .pics-instagram .head h2 {
     margin-left: 15px;
-    font-size: 22px;
+    font-size: 20px;
   }
   .pics-instagram .tighbutoon {
     padding-top: 83px;
@@ -1306,6 +1317,7 @@ body {
     font-size: 15px;
   }
   #home .htext {
+    width: 748px;
     position: relative;
     top: 6vh;
   }
@@ -1353,8 +1365,8 @@ body {
     margin-right: 30px;
     overflow: hidden;
   }
-  #media h2 {
-    font-size: 23px;
+  #media h3 {
+    font-size: 19px;
   }
   #media p {
     width: 339px;
@@ -1378,6 +1390,7 @@ body {
     display: flex;
   }
   #media .click p {
+    font-size: 14px;
     margin-top: 15px;
     margin-bottom: 15px;
   }
@@ -1399,8 +1412,8 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  #services h2 {
-    font-size: 23px;
+  #services h3 {
+    font-size: 19px;
     margin-bottom: 20px;
   }
   #services .party {
@@ -1409,8 +1422,8 @@ body {
     margin-left: 0px;
   }
   #services .party p {
-    top: 66vh;
-    font-size: 20px;
+    top: 28vh;
+    font-size: 23px;
   }
   #services .party .two {
     display: none;
@@ -1425,11 +1438,12 @@ body {
     width: 56px;
   }
   #services .digital p {
-    margin-top: 23px;
+    margin-top: 15px;
     font-size: 14px;
   }
   #services .digital h3 {
-    font-size: 20px;
+    margin-bottom: 15px;
+    font-size: 19px;
   }
   #services .digital img {
     display: none;
@@ -1438,6 +1452,10 @@ body {
     height: 370px;
     width: 240px;
     margin-left: 0px;
+  }
+  #services .camera p {
+    font-size: 23px;
+    top: 28vh;
   }
   #clients {
     margin-top: 100px;
@@ -1460,10 +1478,10 @@ body {
   #clients h3 {
     margin-top: 15px;
     margin-bottom: 8px;
-    font-size: 20px;
+    font-size: 19px;
   }
-  #clients h2 {
-    font-size: 23px;
+  #clients h3 {
+    font-size: 19px;
   }
   #clients .company {
     top: 20px;
@@ -1500,13 +1518,16 @@ body {
   }
   .pics-instagram .head h2 {
     margin-left: 15px;
-    font-size: 23px;
+    font-size: 21px;
+  }
+  .pics-instagram .head .Instagram {
+    font-size: 21px;
   }
   .pics-instagram .tighbutoon {
     padding-top: 83px;
   }
   .pics-instagram .tighbutoon h3 {
-    font-size: 20px;
+    font-size: 19px;
   }
   .pics-instagram .tighbutoon .button {
     padding: 0px;
@@ -1542,7 +1563,7 @@ body {
     width: 78px;
   }
   #footer h3 {
-    font-size: 20px;
+    font-size: 19px;
   }
   #footer p {
     font-size: 13px;
@@ -1552,16 +1573,16 @@ body {
     height: 119px;
   }
   #footer .line {
-    margin-top: 23px;
-    width: 89px;
+    margin-top: 17px;
+    width: 76px;
   }
   #footer .line3 {
-    width: 121px;
-    margin-top: 23px;
+    width: 111px;
+    margin-top: 19px;
   }
   #footer .line2 {
-    width: 121px;
-    margin-top: 23px;
+    width: 111px;
+    margin-top: 19px;
   }
 }
 @media (min-width: 951px) and (max-width: 1024px) {
@@ -1601,6 +1622,7 @@ body {
     font-size: 18px;
   }
   #home .htext {
+    width: 719px;
     position: relative;
     top: 6vh;
   }
@@ -1650,8 +1672,14 @@ body {
     margin-left: 40px;
     margin-right: 40px;
   }
+  #media h3 {
+    font-size: 20px;
+  }
   #media .play {
     margin-top: 20px;
+  }
+  #media p {
+    font-size: 16px;
   }
   #media .button {
     border-radius: 0px;
@@ -1668,6 +1696,7 @@ body {
     width: 360px;
   }
   #media .click p {
+    font-size: 16px;
     width: 360px;
     margin-bottom: 28px;
     margin-top: 15px;
@@ -1677,13 +1706,17 @@ body {
     margin-left: 40px;
     margin-right: 40px;
   }
-  #services h2 {
+  #services h3 {
+    font-size: 20px;
     margin-bottom: 20px;
   }
   #services .camera {
     height: 452px;
     background-repeat: no-repeat;
     background-size: contain;
+  }
+  #services .camera p {
+    top: 30vh;
   }
   #services .camera img {
     position: relative;
@@ -1695,14 +1728,27 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
   }
+  #services .party p {
+    top: 30vh;
+  }
   #services .party .two {
     position: relative;
     top: 28.4vh;
     float: inline-end;
   }
+  #services .digital .line {
+    margin-top: 17px;
+    width: 60px;
+  }
   #services .digital img {
     position: relative;
     top: 30.4vh;
+  }
+  #services .digital h3 {
+    font-size: 20px;
+  }
+  #services .digital p {
+    font-size: 16px;
   }
   #clients {
     margin-top: 80px;
@@ -1711,6 +1757,9 @@ body {
   }
   #clients .tigcomp {
     margin-top: 30px;
+  }
+  #clients p {
+    font-size: 16px;
   }
   #clients .bride .twoimg {
     width: 401px;
@@ -1724,6 +1773,7 @@ body {
     background-repeat: no-repeat;
   }
   #clients h3 {
+    font-size: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
   }
@@ -1736,8 +1786,17 @@ body {
   .pics-instagram .head {
     margin-bottom: 25px;
   }
+  .pics-instagram .head h2 {
+    font-size: 23px;
+  }
+  .pics-instagram .head .Instagram {
+    font-size: 23px;
+  }
   .pics-instagram .tighbutoon {
     padding-top: 95px;
+  }
+  .pics-instagram .tighbutoon h3 {
+    font-size: 20px;
   }
   .pics-instagram .tighbutoon .button {
     margin-top: 15px;
@@ -1745,5 +1804,15 @@ body {
   #footer {
     margin-top: 40px;
     padding: 40px 40px 50px 40px;
+  }
+  #footer h3 {
+    font-size: 20px;
+  }
+  #footer .line3, #footer .line2 {
+    margin-top: 20px;
+    width: 112px;
+  }
+  #footer .line {
+    width: 82px;
   }
 }/*# sourceMappingURL=style.css.map */

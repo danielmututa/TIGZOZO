@@ -13,9 +13,10 @@
     src: url("JosefinSans-Regular.ttf");
 }
 
-
-
-
+$base-fonthone:45px;
+$base-fonthtwo: 21px;
+$base-fonttwentypx:20px;
+$base-fonttext:18px;
 .munehamb{
 
     .overlay {
@@ -140,7 +141,7 @@
             color: black;
             font-family:"JosefinSans-Regular" ;
             text-decoration: none;
-            font-size: 21px;
+            font-size: 20px;
             margin-left: 15px;
         }
         span{
@@ -158,7 +159,7 @@
     }
     
     .light{
-        margin-right: 93px;
+        margin-right: 115px;
         display: flex;
         justify-content: start;
         position: relative;
@@ -190,37 +191,40 @@
         
     }
     p{
-        font-size: 18px;
+        font-size: $base-fonttext;
         font-family:"JosefinSans-Regular" ;
         
     }
     .our{
+
         color: #742296;
-        font-size: 18px;
+        font-size: $base-fonttext;
         font-family:"JosefinSans-Regular" ;
         padding-bottom: 22px;
     }
     h1{
         font-family:"JosefinSans-Regular" ;
-        font-size: 45;
+        font-size: $base-fonthone;
         font-weight: bolder;
     }
     .twentypx{
         font-family:"JosefinSans-Regular" ;
         padding-bottom: 40px;
     padding-top: 15px;
-        font-size: 20px;
+        font-size: $base-fonttwentypx;
     }
+    
     .htext{
+        width: 590px;
         position: relative;
         top: 15vh;
        
     }
     img{
         object-fit: cover;
-        margin-left: 22px;
+        margin-left: 12px;
         height: 100%;
-        width: 22%;
+        width: 21%;
     }
     .one,.two,.three,.four{
         object-fit: cover;
@@ -270,14 +274,14 @@
              right: 4px;
             }
     }
-h2{
-    font-size: 25px;
+h3{
+    font-size: $base-fonthtwo;
     font-family:"JosefinSans-Regular" ;
 }
 p{
     line-height: 1.3;
     width: 395px;
-    font-size: 18px;
+    font-size: $base-fonttext;
     font-family:"JosefinSans-Regular" ;
 }
     .play{
@@ -300,6 +304,7 @@ p{
             background-size: cover;
         }
         p{
+            font-size: $base-fonttext;
             font-family:"JosefinSans-Regular" ;
             margin-top: 20px;
             margin-bottom: 29px;
@@ -333,8 +338,8 @@ margin-top: 100px;
     display: flex;
     justify-content: center;
 }
-h2{
-    font-size: 25px;
+h3{
+    font-size: $base-fonthtwo;
     font-family:"JosefinSans-Regular" ;
     margin-bottom: 45px;
 }
@@ -364,6 +369,7 @@ img{
     }
     
  p{ 
+    font-weight: 600;
     color: white;
     font-size: 26px;
     font-family:"JosefinSans-Regular" ;
@@ -387,7 +393,8 @@ img{
     float: inline-end;
     }
     h3{
-        font-size: 22px;
+        margin-bottom: 22px;
+        font-size: $base-fonthtwo;
         font-family:"JosefinSans-Regular" ;
         position: relative;
         top: 26px;
@@ -395,7 +402,7 @@ img{
     }
     
         p{
-font-size: 18px;
+font-size: $base-fonttext;
             font-family:"JosefinSans-Regular" ;
             margin-top: 19px;
             position: relative;
@@ -411,6 +418,7 @@ color: white;
 .camera{
 background-image: url("images/IMG-20240502-WA0064.jpg");
 p{
+    font-weight: 600;
     font-size: 28px;
     font-family:"JosefinSans-Regular" ;
     position: relative;
@@ -437,12 +445,12 @@ p{
     margin-top: 100px;
     margin-left: 80px;
     margin-right: 80px;
-    h2{
-        font-size: 25px;
+    h3{
+        font-size: $base-fonthtwo;
         font-family:"JosefinSans-Regular" ;
     }
     h3{
-        font-size: 22px;
+        font-size: $base-fonthtwo;
         font-family:"JosefinSans-Regular" ;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -509,13 +517,13 @@ p{
     margin-right: 80px;
     .head{
         h2{
-            font-size: 25px;
+            font-size: $base-fonthtwo;
             font-family:"JosefinSans-Regular" ;
             margin-left: 25px;
         }
         .Instagram{
             font-family:"GreatVibes-Regular-webfont" ;
-            font-size: 25px;
+            font-size: $base-fonthtwo;
             margin-left: 25px;
         }
         margin-bottom: 35px;
@@ -564,7 +572,7 @@ p{
         }
         h3{
             font-family:"JosefinSans-Regular" ;
-            font-size: 22px;
+            font-size: $base-fonthtwo;
         }
 
     }
@@ -588,7 +596,8 @@ p{
     }
 
     h3{
-        font-size: 22px;
+        font-weight: bolder;
+        font-size: $base-fonthtwo;
         font-family:"JosefinSans-Regular" ;
         color: white;
         margin-bottom: 10px;
@@ -771,6 +780,7 @@ position: relative;
   }
 
   .htext{
+    width: 357px;
     position: relative;
     top: 5vh;
   }
@@ -786,10 +796,11 @@ position: relative;
     margin-left: 20px;
     margin-right: 20px;
     overflow: hidden;
-    h2{
+    h3{
         font-size: 18px;
     }
     p{
+        // font-size: 10px;
         width: 339px;
         font-size: 10px;
     }
@@ -817,6 +828,7 @@ position: relative;
     .click{
        
         p{
+            font-size: 10px;
             margin-top: 15px;
             margin-bottom: 15px;
         }
@@ -849,7 +861,7 @@ position: relative;
         display: flex;
         flex-direction: column;
     }
-    h2{
+    h3{
         font-size: 18px;
         margin-bottom: 15px;
     }
@@ -920,7 +932,7 @@ margin-right: 20px;
         margin-bottom: 8px;
         font-size: 15px;
     }
-    h2{
+    h3{
         font-size: 18px;
     }
     .company {
@@ -1018,7 +1030,7 @@ margin-right: 20px;
             width: 78px;
         }
         .icons {
-            margin-top: 4px;
+            margin-top: 8px;
             .cone{
                 font-size: 18px;
             }
@@ -1029,7 +1041,7 @@ margin-right: 20px;
         }
     }
     h3{
-        font-size: 15px;
+        font-size: 18px;
     }
 
     p{
@@ -1037,20 +1049,25 @@ margin-right: 20px;
         margin-top: 8px;
     }
     .about{
-        height: 119px;
+        margin-top: 11px;
+        height: 123px;
         width: 159px;
     }
     .line{
-        margin-top: 14px;
-        width: 60px;
+     
+        margin-top: 16px;
+        width: 71px;
     }
     .line3{
-        width: 84px;
-        margin-top: 14px;
+        width: 100px;
+        margin-top: 18px;
+        
+       
     }
     .line2{
-        width: 84px;
-        margin-top: 16px;
+        width: 100px;
+        margin-top: 19px;
+        
     }
 }
 
@@ -1193,8 +1210,8 @@ margin-right: 20px;
          margin-left: 20px;
          margin-right: 20px;
          overflow: hidden;
-         h2{
-             font-size: 22px;
+         h3{
+             font-size: 18px;
          }
          p{
              width: 339px;
@@ -1207,23 +1224,25 @@ margin-right: 20px;
             
          }
          .twoimgs .tech {
-            display: none;
+            
              right: 0px;
-            top: 73px;
-             height: 241px;
+             top: 86px;
+             height: 225px;
          }
          .twoimgs,.project{
             object-fit: contain;
-             height: 330px;
+             height: 213px;
          }
          .twoimgs{
              display: flex;
          }
          .click{
              p{
+                font-size: 13px;
                  margin-bottom: 20px;
              }
              .watchvideo{
+                 height: 303px;;
                 width: 340px;
                 background-size: contain;
              }
@@ -1253,8 +1272,8 @@ margin-right: 20px;
              justify-content: space-between;
            
          }
-         h2{
-             font-size: 22px;
+         h3{
+             font-size: 18px;
              margin-bottom: 20px;
          }
          .party{
@@ -1275,6 +1294,7 @@ margin-right: 20px;
                  font-size: 13px;
              }
              h3{
+                margin-bottom: 0px;
                  font-size: 18px;
              }
              margin-left: 0px;
@@ -1321,7 +1341,7 @@ margin-right: 20px;
              font-size: 18px;
          }
          h2{
-             font-size: 22px;
+             font-size: 18px;
          }
          .company {
              top: 20px;
@@ -1362,7 +1382,7 @@ margin-right: 20px;
              margin-bottom: 20px;
              h2{
                  margin-left: 15px;
-                 font-size: 22px;
+                 font-size: 20px;
              }
          }
          .tighbutoon {
@@ -1529,6 +1549,7 @@ margin-right: 20px;
              font-size: 15px;
            }  
            .htext{
+            width: 748px;
             position: relative;
             top: 6vh;
            }
@@ -1585,19 +1606,22 @@ margin-right: 20px;
              margin-left: 30px;
              margin-right: 30px;
              overflow: hidden;
-             h2{
-                 font-size: 23px;
+             h3{
+                 font-size: 19px;
              }
+
              p{
                  width: 339px;
                  font-size: 14px;
              }
+
              .play{
                 display: flex;
                 justify-content: space-between;
                 margin-top: 8px;
                 
              }
+
              .twoimgs .tech {
                  right: 0px;
                 top: 73px;
@@ -1612,6 +1636,7 @@ margin-right: 20px;
              }
              .click{
                  p{
+                    font-size: 14px;
                     margin-top: 15px;
                      margin-bottom: 15px;
                  }
@@ -1640,15 +1665,15 @@ margin-right: 20px;
                  justify-content: space-between;
                
              }
-             h2{
-                 font-size: 23px;
+             h3{
+                 font-size: 19px;
                  margin-bottom: 20px;
              }
              .party{
                 height: 370px;
                 width:240px;
                  margin-left: 0px;
-                 p{top: 66vh; font-size: 20px;}.two{display: none;}
+                 p{top: 28vh; font-size: 23px;}.two{display: none;}
              }
              .digital{
                 height:370px;
@@ -1658,11 +1683,12 @@ margin-right: 20px;
                      width: 56px;
                  }
                  p{
-                     margin-top: 23px;
+                     margin-top: 15px;
                      font-size: 14px;
                  }
                  h3{
-                     font-size: 20px;
+                    margin-bottom: 15px;
+                     font-size: 19px;
                  }
                  margin-left: 0px;
                  img{
@@ -1673,6 +1699,10 @@ margin-right: 20px;
                 height: 370px;
                 width: 240px;
                 margin-left: 0px;
+                p{
+                    font-size: 23px;
+                    top: 28vh;
+                }
                
              }
          }
@@ -1699,10 +1729,10 @@ margin-right: 20px;
              h3{
                  margin-top: 15px;
                  margin-bottom: 8px;
-                 font-size: 20px;
+                 font-size: 19px;
              }
-             h2{
-                 font-size: 23px;
+             h3{
+                 font-size: 19px;
              }
              .company {
                  top: 20px;
@@ -1743,13 +1773,16 @@ margin-right: 20px;
                  margin-bottom: 20px;
                  h2{
                      margin-left: 15px;
-                     font-size: 23px;
+                     font-size: 21px;
+                 }
+                 .Instagram{
+                    font-size: 21px;
                  }
              }
              .tighbutoon {
                  padding-top: 83px;
                  h3 {
-                     font-size: 20px;
+                     font-size: 19px;
                  }
                  .button{
                      padding: 0px;
@@ -1791,7 +1824,7 @@ margin-right: 20px;
                  }
              }
              h3{
-                 font-size: 20px;
+                 font-size: 19px;
              }
          
              p{
@@ -1803,16 +1836,16 @@ margin-right: 20px;
                
              }
              .line{
-                 margin-top: 23px;
-                 width: 89px;
+                margin-top: 17px;
+        width: 76px;
              }
              .line3{
-                 width: 121px;
-                 margin-top: 23px;
+                width: 111px;
+        margin-top: 19px;
              }
              .line2{
-                 width: 121px;
-                 margin-top: 23px;
+                width: 111px;
+                margin-top: 19px;
              }
          }
          
@@ -1870,6 +1903,7 @@ margin-right: 20px;
             font-size: 18px;
           }  
           .htext{
+            width: 719px;
            position: relative;
            top: 6vh;
           }
@@ -1925,8 +1959,14 @@ margin-right: 20px;
     margin-top: 80px;
     margin-left: 40px;
     margin-right: 40px;
+    h3{
+    font-size: 20px;
+    }
     .play{
         margin-top: 20px;
+    }
+    p{
+    font-size: 16px;
     }
     .button{
         border-radius: 0px;
@@ -1944,6 +1984,7 @@ margin-right: 20px;
             width: 360px;
         }
         p{
+        font-size: 16px;
             width: 360px;
             margin-bottom: 28px;
             margin-top: 15px;
@@ -1956,10 +1997,14 @@ margin-right: 20px;
     margin-top: 80px;
     margin-left: 40px;
     margin-right: 40px;
-    h2{
+    h3{
+    font-size: 20px;
         margin-bottom: 20px;
     }
     .camera{
+    p{
+    top: 30vh;
+    }
         height: 452px;
         background-repeat: no-repeat;
         background-size: contain;
@@ -1970,6 +2015,9 @@ margin-right: 20px;
         }
     }
     .party{
+    p{
+    top: 30vh;
+    }
         height: 452px;
         background-repeat: no-repeat;
         background-size: contain;
@@ -1980,9 +2028,20 @@ margin-right: 20px;
         }
     }
     .digital{
+    .line{
+    margin-top: 17px;
+    width: 60px;
+    }
         img{
             position: relative;
             top: 30.4vh;
+        }
+        h3{
+        font-size: 20px;
+        }
+
+        p{
+        font-size: 16px;
         }
        
     }
@@ -1994,6 +2053,9 @@ margin-right: 20px;
     margin-right: 40px;
     .tigcomp{
         margin-top: 30px;
+    }
+    p{
+    font-size: 16px;
     }
     .bride .twoimg {
         width: 401px;
@@ -2007,6 +2069,7 @@ margin-right: 20px;
         background-repeat: no-repeat;
     }
     h3{
+    font-size: 20px;
         margin-top: 15px;
         margin-bottom: 15px;
     }
@@ -2019,8 +2082,17 @@ margin-right: 20px;
     margin:123px 40px 0px 40px ;
     .head{
         margin-bottom: 25px;
+        h2{
+        font-size: 23px;
+        }
+        .Instagram{
+        font-size: 23px;
+        }
     }
     .tighbutoon{
+    h3{
+    font-size: 20px;
+    }
         padding-top: 95px;
         .button{
             margin-top: 15px;
@@ -2032,6 +2104,19 @@ margin-right: 20px;
 #footer{
     margin-top:  40px;
     padding: 40px 40px 50px 40px;
+
+    h3{
+    font-size: 20px;
+    }
+
+    .line3,.line2{
+    margin-top: 20px;
+    width: 112px;
+    }
+
+    .line{
+    width: 82px;
+    }
 }
     }
     
