@@ -361,7 +361,7 @@ img{
 
     .two{
         object-fit: cover;
-        top: 65.5vh;
+        top: 64.5vh;
     position: relative;
     float: inline-end;
     height: 8%;
@@ -373,7 +373,7 @@ img{
     color: white;
     font-size: 26px;
     font-family:"JosefinSans-Regular" ;
-    top: 71vh;
+    top: 69vh;
     position: relative;
     text-align: center;
  }  
@@ -388,7 +388,7 @@ img{
 
     }
     img{
-        top: 70vh;
+        top: 69vh;
     position: relative;
     float: inline-end;
     }
@@ -422,14 +422,14 @@ p{
     font-size: 28px;
     font-family:"JosefinSans-Regular" ;
     position: relative;
-    top: 71vh;
+    top: 69vh;
     text-align: center;
     color: white;
 }
     img{
         height: 8%;
         position: relative;
-        top: 69.8vh;
+        top: 68.8vh;
         float: inline-end;
         object-fit: cover;
     }
@@ -668,7 +668,7 @@ p{
 
 
 
-@media  (max-width: 568px) {
+@media (min-width:200px) and (max-width: 568px) {
 
     .munehamb{
         .overlay{
@@ -800,7 +800,7 @@ position: relative;
         font-size: 18px;
     }
     p{
-        // font-size: 10px;
+       
         width: 339px;
         font-size: 10px;
     }
@@ -841,7 +841,7 @@ position: relative;
     }
     .button{
         border-radius: 0px;
-        width: 99px;
+        width: 100px;
         a{
             padding: 14px;
             font-size: 10px;

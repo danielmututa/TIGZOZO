@@ -307,7 +307,7 @@ body {
 #services .party .two {
   -o-object-fit: cover;
      object-fit: cover;
-  top: 65.5vh;
+  top: 64.5vh;
   position: relative;
   float: inline-end;
   height: 8%;
@@ -317,7 +317,7 @@ body {
   color: white;
   font-size: 26px;
   font-family: "JosefinSans-Regular";
-  top: 71vh;
+  top: 69vh;
   position: relative;
   text-align: center;
 }
@@ -334,7 +334,7 @@ body {
   border: 1px solid white;
 }
 #services .digital img {
-  top: 70vh;
+  top: 69vh;
   position: relative;
   float: inline-end;
 }
@@ -366,14 +366,14 @@ body {
   font-size: 28px;
   font-family: "JosefinSans-Regular";
   position: relative;
-  top: 71vh;
+  top: 69vh;
   text-align: center;
   color: white;
 }
 #services .camera img {
   height: 8%;
   position: relative;
-  top: 69.8vh;
+  top: 68.8vh;
   float: inline-end;
   -o-object-fit: cover;
      object-fit: cover;
@@ -578,7 +578,7 @@ body {
   text-decoration: none;
 }
 
-@media (max-width: 568px) {
+@media (min-width: 200px) and (max-width: 568px) {
   .munehamb .overlay {
     background-color: rgb(0, 0, 0);
   }
@@ -722,7 +722,7 @@ body {
   }
   #media .button {
     border-radius: 0px;
-    width: 99px;
+    width: 100px;
   }
   #media .button a {
     padding: 14px;
