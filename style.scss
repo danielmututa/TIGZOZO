@@ -2127,51 +2127,79 @@ margin-right: 20px;
 
 
 
-    @media only screen and  (min-width:1399px){
+    @media only screen and  (min-width:1399.98px){
 
         #media {
+            .click {
 
+                .watchvideo {
+width: 420px;
+height: 375px;
+
+
+                }
+
+            }
             .project{
-                height: 248px;
+                height: 300px;
             }
             .twoimgs{
                 .tech {
            
                     position: relative;
-                    top: 69px;
-                    height: 249px;
+                    top: 71px;
+                    height: 300px;
                     right: 5px;
                 }
             } 
 
 
         }
-        
+
+
         #services{
-            .camera{
+
+            .camera {
                 p{
-                    top: 61vh;
+                    top: 62vh;
                 }
                 img {
+                
                     top: 61.4vh;
                 }
-            } 
 
-
-            .party{
-                p{
-                    top: 61vh;
-                }
-                .two {
-                    top: 57.7vh;
-                }
-            } 
+            }
 
             .digital{
                 img {
-                    top: 61.7vh;
+                    top: 62vh;
                 }
+
             } 
+
+            .party {
+
+                p{
+                    top: 62vh;
+                }
+                .two {
+            
+                    top: 57.7vh;
+                }
+            }
+
+        } 
+        
+        #clients{
+            .company {
+                position: relative;
+                top: 25px;
+            }
+
+            .bride {
+                position: relative;
+                bottom: 30px;
+            }
         } 
 
         .pics-instagram{

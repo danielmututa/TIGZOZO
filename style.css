@@ -1816,30 +1816,42 @@ body {
     width: 82px;
   }
 }
-@media only screen and (min-width: 1399px) {
+@media only screen and (min-width: 1399.98px) {
+  #media .click .watchvideo {
+    width: 420px;
+    height: 375px;
+  }
   #media .project {
-    height: 248px;
+    height: 300px;
   }
   #media .twoimgs .tech {
     position: relative;
-    top: 69px;
-    height: 249px;
+    top: 71px;
+    height: 300px;
     right: 5px;
   }
   #services .camera p {
-    top: 61vh;
+    top: 62vh;
   }
   #services .camera img {
     top: 61.4vh;
   }
+  #services .digital img {
+    top: 62vh;
+  }
   #services .party p {
-    top: 61vh;
+    top: 62vh;
   }
   #services .party .two {
     top: 57.7vh;
   }
-  #services .digital img {
-    top: 61.7vh;
+  #clients .company {
+    position: relative;
+    top: 25px;
+  }
+  #clients .bride {
+    position: relative;
+    bottom: 30px;
   }
   .pics-instagram .head h2 {
     font-size: 23px;
