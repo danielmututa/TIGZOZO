@@ -20,7 +20,7 @@ $base-fonttext:18px;
 .munehamb{
 
     .overlay {
-        height: 120vh;
+        height: 125vh;
         width: 0;
         position: absolute;
         z-index: 1;
@@ -260,7 +260,7 @@ $base-fonttext:18px;
     margin-right: 80px;
     .project{
         object-fit: cover;
-        height: 260px;
+        height: 250px;
 
     }
 
@@ -269,8 +269,8 @@ $base-fonttext:18px;
         .tech{
             object-fit: cover;
             position: relative;
-            top: 58px;
-            height: 260px;
+            top: 68px;
+            height: 250px;
              right: 4px;
             }
     }
@@ -361,7 +361,7 @@ img{
 
     .two{
         object-fit: cover;
-        top: 64.5vh;
+        top: 65.5vh;
     position: relative;
     float: inline-end;
     height: 8%;
@@ -388,7 +388,7 @@ img{
 
     }
     img{
-        top: 69vh;
+        top: 70vh;
     position: relative;
     float: inline-end;
     }
@@ -429,7 +429,7 @@ p{
     img{
         height: 8%;
         position: relative;
-        top: 68.8vh;
+        top: 69.8vh;
         float: inline-end;
         object-fit: cover;
     }
@@ -986,7 +986,7 @@ margin-right: 20px;
         }
     }
     .tighbutoon {
-        padding-top: 83px;
+        padding-top: 95px;
         h3 {
             font-size: 15px;
         }
@@ -2121,4 +2121,67 @@ margin-right: 20px;
     }
     
 
+
+
+
+
+
+
+    @media only screen and  (min-width:1399px){
+
+        #media {
+
+            .project{
+                height: 248px;
+            }
+            .twoimgs{
+                .tech {
+           
+                    position: relative;
+                    top: 69px;
+                    height: 249px;
+                    right: 5px;
+                }
+            } 
+
+
+        }
+        
+        #services{
+            .camera{
+                p{
+                    top: 61vh;
+                }
+                img {
+                    top: 61.4vh;
+                }
+            } 
+
+
+            .party{
+                p{
+                    top: 61vh;
+                }
+                .two {
+                    top: 57.7vh;
+                }
+            } 
+
+            .digital{
+                img {
+                    top: 61.7vh;
+                }
+            } 
+        } 
+
+        .pics-instagram{
+            .head {
+                h2{
+                    font-size: 23px;
+                }
+                .Instagram {font-size: 23px;}
+            }
+        } 
+
+    }
 
