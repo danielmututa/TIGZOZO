@@ -298,6 +298,9 @@ body {
      object-fit: cover;
 }
 #services .party {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
   background-image: url("images/IMG-20240502-WA0062.jpg");
   height: 480px;
   width: 352px;
@@ -307,9 +310,7 @@ body {
 #services .party .two {
   -o-object-fit: cover;
      object-fit: cover;
-  top: 65.5vh;
   position: relative;
-  float: inline-end;
   height: 8%;
 }
 #services .party p {
@@ -317,15 +318,21 @@ body {
   color: white;
   font-size: 26px;
   font-family: "JosefinSans-Regular";
-  top: 69vh;
+  right: 99px;
   position: relative;
-  text-align: center;
 }
 #services .digital {
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
   color: white;
   background-color: #742296;
   width: 340px;
   margin-left: 22px;
+}
+#services .digital .cancel {
+  display: flex;
+  justify-content: flex-end;
 }
 #services .digital .line {
   margin-top: 19px;
@@ -334,9 +341,8 @@ body {
   border: 1px solid white;
 }
 #services .digital img {
-  top: 70vh;
+  width: 11%;
   position: relative;
-  float: inline-end;
 }
 #services .digital h3 {
   margin-bottom: 22px;
@@ -355,6 +361,9 @@ body {
   padding-left: 30px;
 }
 #services .camera {
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
   background-image: url("images/IMG-20240502-WA0064.jpg");
   background-size: cover;
   height: 480px;
@@ -362,19 +371,15 @@ body {
   margin-left: 13px;
 }
 #services .camera p {
+  right: 97px;
   font-weight: 600;
   font-size: 28px;
   font-family: "JosefinSans-Regular";
   position: relative;
-  top: 69vh;
-  text-align: center;
   color: white;
 }
 #services .camera img {
   height: 8%;
-  position: relative;
-  top: 69.8vh;
-  float: inline-end;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -743,11 +748,13 @@ body {
     margin-bottom: 15px;
   }
   #services .party {
+    display: flex;
+    justify-content: center;
     width: 334px;
     margin-left: 0px;
   }
   #services .party p {
-    top: 66vh;
+    right: 0px;
     font-size: 20px;
   }
   #services .party .two {
@@ -770,16 +777,18 @@ body {
   #services .digital h3 {
     font-size: 15px;
   }
-  #services .digital img {
+  #services .digital .cancel {
     display: none;
   }
   #services .camera {
+    display: flex;
+    justify-content: center;
     margin-top: 10px;
     width: 334px;
     margin-left: 0px;
   }
   #services .camera p {
-    top: 66vh;
+    right: 0px;
     font-size: 20px;
   }
   #services .camera img {
@@ -1093,12 +1102,14 @@ body {
     margin-bottom: 20px;
   }
   #services .party {
+    display: flex;
+    justify-content: center;
     height: 359px;
     width: 233px;
     margin-left: 0px;
   }
   #services .party p {
-    top: 32vh;
+    right: 0px;
     font-size: 20px;
   }
   #services .party .two {
@@ -1121,10 +1132,12 @@ body {
     margin-bottom: 0px;
     font-size: 18px;
   }
-  #services .digital img {
+  #services .digital .cancel {
     display: none;
   }
   #services .camera {
+    display: flex;
+    justify-content: center;
     margin-left: 0px;
     -o-object-fit: cover;
        object-fit: cover;
@@ -1132,7 +1145,7 @@ body {
     width: 233px;
   }
   #services .camera p {
-    top: 32vh;
+    right: 0px;
     font-size: 20px;
   }
   #services .camera .two {
@@ -1417,12 +1430,14 @@ body {
     margin-bottom: 20px;
   }
   #services .party {
+    display: flex;
+    justify-content: center;
     height: 370px;
     width: 240px;
     margin-left: 0px;
   }
   #services .party p {
-    top: 28vh;
+    right: 0px;
     font-size: 23px;
   }
   #services .party .two {
@@ -1445,17 +1460,22 @@ body {
     margin-bottom: 15px;
     font-size: 19px;
   }
-  #services .digital img {
+  #services .digital .cancel {
     display: none;
   }
   #services .camera {
+    display: flex;
+    justify-content: center;
     height: 370px;
     width: 240px;
     margin-left: 0px;
   }
   #services .camera p {
+    right: 0px;
     font-size: 23px;
-    top: 28vh;
+  }
+  #services .camera .two {
+    display: none;
   }
   #clients {
     margin-top: 100px;
@@ -1692,6 +1712,9 @@ body {
   #media .twoimgs {
     margin-top: 15px;
   }
+  #media .twoimgs .tech {
+    top: 99px;
+  }
   #media .click .watchvideo {
     width: 360px;
   }
@@ -1716,12 +1739,7 @@ body {
     background-size: contain;
   }
   #services .camera p {
-    top: 30vh;
-  }
-  #services .camera img {
-    position: relative;
-    top: 30.4vh;
-    float: inline-end;
+    right: 71px;
   }
   #services .party {
     height: 452px;
@@ -1729,20 +1747,11 @@ body {
     background-size: contain;
   }
   #services .party p {
-    top: 30vh;
-  }
-  #services .party .two {
-    position: relative;
-    top: 28.4vh;
-    float: inline-end;
+    right: 71px;
   }
   #services .digital .line {
     margin-top: 17px;
     width: 60px;
-  }
-  #services .digital img {
-    position: relative;
-    top: 30.4vh;
   }
   #services .digital h3 {
     font-size: 20px;
@@ -1826,24 +1835,15 @@ body {
   }
   #media .twoimgs .tech {
     position: relative;
-    top: 71px;
+    top: 72px;
     height: 300px;
     right: 5px;
   }
   #services .camera p {
-    top: 62vh;
-  }
-  #services .camera img {
-    top: 61.4vh;
-  }
-  #services .digital img {
-    top: 62vh;
+    right: 97px;
   }
   #services .party p {
-    top: 62vh;
-  }
-  #services .party .two {
-    top: 57.7vh;
+    right: 98px;
   }
   #clients .company {
     position: relative;

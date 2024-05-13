@@ -169,6 +169,13 @@ $base-fonttext:18px;
             width: 64%;
         }
     }
+
+
+
+        
+        
+       
+
 }
 
 #home{
@@ -252,6 +259,12 @@ $base-fonttext:18px;
         color: black;
         font-family:"JosefinSans-Regular" ;
     }
+
+
+
+
+
+
 }
 
 #media{
@@ -291,10 +304,15 @@ p{
         justify-content: space-evenly;
     }
     .click{
+       
         .clickme{
+           
             height: 9%;
         }
         .watchvideo{
+           
+            
+
             display: flex;
             justify-content: center;
             align-items: center;
@@ -350,7 +368,9 @@ img{
 
 
 .party{
-   
+   display: flex;
+   justify-content: flex-end;
+   align-items: end;
    
     background-image: url("images/IMG-20240502-WA0062.jpg");
     height: 480px;
@@ -361,9 +381,7 @@ img{
 
     .two{
         object-fit: cover;
-        top: 65.5vh;
     position: relative;
-    float: inline-end;
     height: 8%;
     
     }
@@ -373,13 +391,23 @@ img{
     color: white;
     font-size: 26px;
     font-family:"JosefinSans-Regular" ;
-    top: 64.5vh;
+    right: 99px;
     position: relative;
-    text-align: center;
+    
  }  
 }
 
 .digital{
+
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+
+.cancel{
+    display: flex;
+    justify-content: flex-end;
+}
+
     .line{
         margin-top: 19px;
         position: absolute;
@@ -388,9 +416,8 @@ img{
 
     }
     img{
-        top: 69vh;
+        width: 11%;
     position: relative;
-    float: inline-end;
     }
     h3{
         margin-bottom: 22px;
@@ -416,21 +443,21 @@ color: white;
     margin-left: 22px;
 }
 .camera{
+
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
 background-image: url("images/IMG-20240502-WA0064.jpg");
 p{
+    right: 97px;
     font-weight: 600;
     font-size: 28px;
     font-family:"JosefinSans-Regular" ;
     position: relative;
-    top: 69vh;
-    text-align: center;
     color: white;
 }
     img{
         height: 8%;
-        position: relative;
-        top: 68.8vh;
-        float: inline-end;
         object-fit: cover;
     }
     background-size: cover;
@@ -866,19 +893,26 @@ position: relative;
         margin-bottom: 15px;
     }
     .party{
+        display: flex;
+        justify-content: center;
         width: 334px;
         margin-left: 0px;
         p{
-            top: 66vh; font-size: 20px;
+
+            right: 0px;
+            font-size: 20px;
         }
-        .two{
-            display: none;
-        }
+       
+            .two{
+                display: none;
+            }
+        
     }
     .digital{
         width: 334px;
         margin-top: 10px;
         height: 480px;
+        
         .line {
             margin-top: 12px;
             width: 40px;
@@ -891,14 +925,18 @@ position: relative;
             font-size: 15px;
         }
         margin-left: 0px;
-        img{
-            display: none;
-        }
+        
+.cancel{
+    display: none;
+}
+
     }
     .camera{
+        display: flex;
+        justify-content: center;
         margin-top: 10px;
         p{
-            top: 66vh;
+            right: 0px;
         font-size: 20px;
         }
         width: 334px;
@@ -1277,11 +1315,22 @@ margin-right: 20px;
              margin-bottom: 20px;
          }
          .party{
+            display: flex;
+            justify-content: center;
             height: 359px;
             width: 233px;
              margin-left: 0px;
-             p{top: 32vh; font-size: 20px;}.two{display: none;}
+             p{
+                right: 0px;
+                // top: 32vh; 
+                font-size: 20px;
+            }
+             .two{
+                display: none;
+            }
          }
+
+
          .digital{
             height: 359px;
         width: 233px;
@@ -1298,17 +1347,22 @@ margin-right: 20px;
                  font-size: 18px;
              }
              margin-left: 0px;
-             img{
+             .cancel{
                  display: none;
              }
          }
+
+
          .camera{
+            display: flex;
+            justify-content: center;
             margin-left: 0px;
             object-fit: cover;
             height: 359px;
             width: 233px;
             p{
-                top: 32vh; font-size: 20px;
+                right: 0px;
+                font-size: 20px;
             }
             .two{
                 display: none;
@@ -1670,10 +1724,18 @@ margin-right: 20px;
                  margin-bottom: 20px;
              }
              .party{
+                display: flex;
+                justify-content: center;
                 height: 370px;
                 width:240px;
                  margin-left: 0px;
-                 p{top: 28vh; font-size: 23px;}.two{display: none;}
+                 p{
+                    right: 0px;
+
+                 
+                    font-size: 23px;
+                }
+                 .two{display: none;}
              }
              .digital{
                 height:370px;
@@ -1683,6 +1745,7 @@ margin-right: 20px;
                      width: 56px;
                  }
                  p{
+
                      margin-top: 15px;
                      font-size: 14px;
                  }
@@ -1691,19 +1754,27 @@ margin-right: 20px;
                      font-size: 19px;
                  }
                  margin-left: 0px;
-                 img{
+                 .cancel{
                      display: none;
                  }
              }
+
              .camera{
+                display: flex;
+                justify-content: center;
                 height: 370px;
                 width: 240px;
                 margin-left: 0px;
                 p{
+                    right: 0px;
                     font-size: 23px;
-                    top: 28vh;
+                   
                 }
                
+             .two{
+display: none;
+             }
+
              }
          }
          
@@ -1977,6 +2048,9 @@ margin-right: 20px;
         }
     }
     .twoimgs{
+        .tech {
+            top: 99px;
+        }
         margin-top: 15px;
     }
     .click{
@@ -2002,40 +2076,38 @@ margin-right: 20px;
         margin-bottom: 20px;
     }
     .camera{
+        
     p{
-    top: 30vh;
+        right: 71px;
+    
     }
         height: 452px;
         background-repeat: no-repeat;
         background-size: contain;
-        img{
-            position: relative;
-    top: 30.4vh;
-    float: inline-end;
-        }
+   
     }
+
+
     .party{
+
     p{
-    top: 30vh;
+        right: 71px;
+   
     }
         height: 452px;
         background-repeat: no-repeat;
         background-size: contain;
-        .two{
-            position: relative;
-    top: 28.4vh;
-    float: inline-end;
-        }
+   
     }
+
+
     .digital{
+
     .line{
     margin-top: 17px;
     width: 60px;
     }
-        img{
-            position: relative;
-            top: 30.4vh;
-        }
+       
         h3{
         font-size: 20px;
         }
@@ -2147,7 +2219,7 @@ height: 375px;
                 .tech {
            
                     position: relative;
-                    top: 71px;
+                    top: 72px;
                     height: 300px;
                     right: 5px;
                 }
@@ -2161,31 +2233,28 @@ height: 375px;
 
             .camera {
                 p{
-                    top: 62vh;
+            right: 97px;
+                    // top: 62vh;
                 }
-                img {
                 
-                    top: 61.4vh;
-                }
 
             }
 
             .digital{
-                img {
-                    top: 62vh;
-                }
+                // img {
+                //     // top: 62vh;
+                // }
 
             } 
 
+            
             .party {
 
                 p{
-                    top: 62vh;
+                    right: 98px;
+                   
                 }
-                .two {
-            
-                    top: 57.7vh;
-                }
+                
             }
 
         } 
@@ -2212,4 +2281,18 @@ height: 375px;
         } 
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
