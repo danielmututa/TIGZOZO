@@ -423,7 +423,9 @@ body {
   border: 1px solid white;
 }
 #services .digital img {
-  width: 11%;
+  background-color: #e5e5e5;
+  padding: 5px;
+  width: 8.2%;
   position: relative;
 }
 #services .digital h3 {
@@ -765,7 +767,7 @@ body {
   #home .twentypx {
     padding-top: 8px;
     padding-bottom: 20px;
-    font-size: 12px;
+    font-size: 13px;
   }
   #home img {
     -o-object-fit: cover;
@@ -801,10 +803,10 @@ body {
     font-size: 10px;
   }
   #home p {
-    font-size: 10px;
+    font-size: 12px;
   }
   #home .our {
-    font-size: 10px;
+    font-size: 12px;
     padding-bottom: 10px;
   }
   #home .htext {
@@ -822,8 +824,8 @@ body {
     font-size: 18px;
   }
   #media p {
-    width: 339px;
-    font-size: 10px;
+    width: 335px;
+    font-size: 12px;
   }
   #media .play {
     margin-top: 8px;
@@ -849,13 +851,14 @@ body {
     padding-top: 0px;
   }
   #media .click p {
-    font-size: 10px;
+    width: 335px;
+    font-size: 12px;
     margin-top: 15px;
     margin-bottom: 15px;
   }
   #media .button {
     border-radius: 0px;
-    width: 100px;
+    width: 105px;
   }
   #media .button a {
     padding: 14px;
@@ -882,6 +885,7 @@ body {
     margin-left: 0px;
   }
   #services .party p {
+    margin-bottom: 10px;
     right: 0px;
     font-size: 20px;
   }
@@ -900,7 +904,7 @@ body {
   }
   #services .digital p {
     margin-top: 23px;
-    font-size: 10px;
+    font-size: 12px;
   }
   #services .digital h3 {
     font-size: 15px;
@@ -916,6 +920,7 @@ body {
     margin-left: 0px;
   }
   #services .camera p {
+    margin-bottom: 10px;
     right: 0px;
     font-size: 20px;
   }
@@ -937,8 +942,8 @@ body {
     margin-bottom: 8px;
   }
   #clients p {
-    width: 335px;
-    font-size: 10px;
+    width: 337px;
+    font-size: 12px;
   }
   #clients h3 {
     margin-top: 15px;
@@ -1030,7 +1035,7 @@ body {
     width: 125px;
   }
   #footer .fa-tw-lo p {
-    font-size: 10px;
+    font-size: 12px;
   }
   #footer .fa-tw-lo img {
     width: 78px;
@@ -1049,7 +1054,7 @@ body {
     font-size: 18px;
   }
   #footer p {
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 8px;
   }
   #footer .about {
@@ -1068,6 +1073,9 @@ body {
   #footer .line2 {
     width: 100px;
     margin-top: 19px;
+  }
+  #footer .intouch {
+    width: 158px;
   }
 }
 @media (min-width: 569px) and (max-width: 768px) {

@@ -520,7 +520,9 @@ img{
 
     }
     img{
-        width: 11%;
+        background-color: #e5e5e5;
+        padding: 5px;
+        width: 8.2%;
     position: relative;
     }
     h3{
@@ -923,7 +925,7 @@ width: 40%;
   .twentypx{
     padding-top: 8px;
     padding-bottom: 20px;
-    font-size: 12px;
+    font-size: 13px;
   }  
  img {
     object-fit: cover;
@@ -961,11 +963,11 @@ position: relative;
 
   }
   p{
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .our{
-    font-size: 10px;
+    font-size: 12px;
     padding-bottom: 10px;
   }
 
@@ -991,8 +993,8 @@ position: relative;
     }
     p{
        
-        width: 339px;
-        font-size: 10px;
+        width: 335px;
+        font-size: 12px;
     }
     .play{
        margin-top: 8px;
@@ -1018,7 +1020,8 @@ position: relative;
     .click{
        
         p{
-            font-size: 10px;
+            width: 335px;
+            font-size: 12px;
             margin-top: 15px;
             margin-bottom: 15px;
         }
@@ -1032,7 +1035,7 @@ position: relative;
     }
     .button{
         border-radius: 0px;
-        width: 100px;
+        width: 105px;
         a{
             padding: 14px;
             font-size: 10px;
@@ -1062,7 +1065,7 @@ position: relative;
         width: 334px;
         margin-left: 0px;
         p{
-
+margin-bottom: 10px;
             right: 0px;
             font-size: 20px;
         }
@@ -1083,7 +1086,7 @@ position: relative;
         }
         p{
             margin-top: 23px;
-            font-size: 10px;
+            font-size: 12px;
         }
         h3{
             font-size: 15px;
@@ -1100,6 +1103,7 @@ position: relative;
         justify-content: center;
         margin-top: 10px;
         p{
+            margin-bottom: 10px;
             right: 0px;
         font-size: 20px;
         }
@@ -1126,8 +1130,8 @@ margin-right: 20px;
         margin-bottom: 8px;
     }
     p{
-        width: 335px;
-        font-size: 10px;
+        width: 337px;
+        font-size: 12px;
     }
     h3{
         margin-top: 15px;
@@ -1226,7 +1230,7 @@ margin-right: 20px;
     .fa-tw-lo{
         width: 125px;
         p{
-            font-size: 10px;
+            font-size: 12px;
         }
         img{
             width: 78px;
@@ -1241,13 +1245,14 @@ margin-right: 20px;
                 margin-left: 6px;
             }
         }
+       
     }
     h3{
         font-size: 18px;
     }
 
     p{
-        font-size: 10px;
+        font-size: 12px;
         margin-top: 8px;
     }
     .about{
@@ -1270,6 +1275,10 @@ margin-right: 20px;
         width: 100px;
         margin-top: 19px;
         
+    }
+    .intouch{
+       
+        width: 158px;
     }
 }
 
