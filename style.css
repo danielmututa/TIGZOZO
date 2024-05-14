@@ -86,6 +86,83 @@ body {
 .dark-mode .navigation .navbar a {
   color: white;
 }
+.dark-mode .login {
+  color: white;
+}
+
+.forms {
+  display: flex;
+  justify-content: center;
+}
+.forms .get-in {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.forms .get-in .sign-in {
+  display: flex;
+  justify-content: center;
+}
+.forms .get-in .sign-in img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.forms h2 {
+  font-family: "JosefinSans-Regular";
+  margin-top: 20px;
+  font-size: 18px;
+}
+.forms .input-form {
+  font-family: "JosefinSans-Regular";
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding: 15px;
+  width: 500px;
+  border-radius: 0px;
+}
+.forms p {
+  font-family: "JosefinSans-Regular";
+  margin-top: 15px;
+}
+.forms .button {
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #86827E;
+  width: 62px;
+  margin-top: 15px;
+  transition: 0.8s;
+}
+.forms .button a {
+  font-family: "JosefinSans-Regular";
+  padding: 15px;
+  font-size: 10px;
+  text-decoration: none;
+  color: white;
+}
+.forms .button:hover {
+  color: white;
+  background-color: #742296;
+}
+.forms .backtoindex {
+  margin-top: 15px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  transition: 0.8s;
+  background-color: rgba(62, 62, 165, 0.616);
+  width: 62px;
+}
+.forms .backtoindex .backarrow {
+  color: white;
+  font-size: 20px;
+  padding: 12px;
+}
+.forms .backtoindex:hover {
+  color: white;
+  background-color: #742296;
+}
 
 .navigation {
   margin-left: 80px;
@@ -120,15 +197,23 @@ body {
   width: 65%;
 }
 .navigation .light {
-  margin-right: 115px;
+  margin-right: 23px;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   position: relative;
 }
 .navigation .light img {
   -o-object-fit: contain;
      object-fit: contain;
   width: 64%;
+}
+.navigation .log-in {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.navigation .log-in .login {
+  font-size: 35px;
 }
 
 #home {
@@ -246,17 +331,14 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
-#media .click .clickme {
-  height: 9%;
-}
 #media .click .watchvideo {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("images/WhatsApp Image 2024-05-02 at 16.24.13_11af13b4.jpg");
+}
+#media .click .watchvideo #video {
+  width: 400px;
   height: 321px;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 #media .click p {
   font-size: 18px;
@@ -584,6 +666,10 @@ body {
 }
 
 @media (min-width: 200px) and (max-width: 568px) {
+  .munehamb .log-in .login {
+    font-size: 21px;
+    color: white;
+  }
   .munehamb .overlay {
     background-color: rgb(0, 0, 0);
   }
@@ -617,6 +703,52 @@ body {
     top: -18px;
     right: 8px;
     font-size: 71px;
+  }
+  .forms {
+    overflow: hidden;
+  }
+  .forms .get-in {
+    padding-bottom: 30px;
+  }
+  .forms h2 {
+    font-size: 18px;
+  }
+  .forms .input-form {
+    border-bottom: none;
+    background-color: #E8F0FE;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.479);
+    border-radius: 5px;
+    width: 305px;
+  }
+  .forms .blackicon {
+    display: none;
+  }
+  .forms p {
+    margin-top: 10px;
+  }
+  .forms .forgetpassword {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .forms .button {
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 335px;
+  }
+  .forms .button a {
+    font-weight: 600;
+    padding: 15px;
+    font-size: 13px;
+    color: white;
+  }
+  .forms .backtoindex {
+    width: 71px;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  .forms .backtoindex .backarrow {
+    font-size: 20px;
   }
   .navigation {
     display: none;
@@ -720,10 +852,6 @@ body {
     font-size: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
-  }
-  #media .click .watchvideo {
-    height: 299px;
-    background-size: contain;
   }
   #media .button {
     border-radius: 0px;
@@ -954,6 +1082,11 @@ body {
   .munehamb .logbanner logo img {
     width: 50%;
   }
+  .munehamb .logbanner .login {
+    margin-right: 25px;
+    font-size: 30px;
+    color: white;
+  }
   .munehamb .logbanner .menubger {
     font-size: 35px;
     color: white;
@@ -977,6 +1110,54 @@ body {
     padding-top: 12px;
     width: 6%;
     padding-left: 20px;
+  }
+  .forms {
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .forms .get-in {
+    padding-bottom: 40px;
+  }
+  .forms h2 {
+    font-size: 18px;
+  }
+  .forms .input-form {
+    background-color: #E8F0FE;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.479);
+    border-radius: 5px;
+    width: 689px;
+    padding: 20px 19px 20px 20px;
+    border-bottom: none;
+  }
+  .forms .blackicon {
+    display: none;
+  }
+  .forms p {
+    margin-top: 10px;
+  }
+  .forms .forgetpassword {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .forms .button {
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 728px;
+  }
+  .forms .button a {
+    font-weight: 600;
+    padding: 20px;
+    font-size: 13px;
+    color: white;
+  }
+  .forms .backtoindex {
+    width: 71px;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  .forms .backtoindex .backarrow {
+    font-size: 20px;
   }
   .navigation {
     display: none;
@@ -1074,10 +1255,9 @@ body {
     font-size: 13px;
     margin-bottom: 20px;
   }
-  #media .click .watchvideo {
+  #media .click .watchvideo #video {
     height: 303px;
     width: 340px;
-    background-size: contain;
   }
   #media .button {
     border-radius: 0px;
@@ -1288,6 +1468,11 @@ body {
   .munehamb .logbanner logo img {
     width: 52%;
   }
+  .munehamb .logbanner .login {
+    margin-right: 30px;
+    font-size: 30px;
+    color: white;
+  }
   .munehamb .logbanner .menubger {
     font-size: 35px;
     color: white;
@@ -1312,6 +1497,52 @@ body {
     top: -20px;
     right: 18px;
     font-size: 81px;
+  }
+  .forms {
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .forms .get-in {
+    padding-bottom: 40px;
+  }
+  .forms h2 {
+    font-size: 18px;
+  }
+  .forms .input-form {
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.479);
+    border-radius: 5px;
+    width: 712px;
+    padding: 20px 19px 20px 20px;
+  }
+  .forms .blackicon {
+    display: none;
+  }
+  .forms p {
+    margin-top: 10px;
+  }
+  .forms .forgetpassword {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .forms .button {
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 754px;
+  }
+  .forms .button a {
+    font-weight: 600;
+    padding: 20px;
+    font-size: 13px;
+    color: white;
+  }
+  .forms .backtoindex {
+    width: 71px;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  .forms .backtoindex .backarrow {
+    font-size: 20px;
   }
   .navigation {
     display: none;
@@ -1401,6 +1632,10 @@ body {
   #media .twoimgs {
     margin-top: 15px;
     display: flex;
+  }
+  #media .click .watchvideo #video {
+    height: 303px;
+    width: 340px;
   }
   #media .click p {
     font-size: 14px;
@@ -1615,12 +1850,19 @@ body {
     width: 50%;
   }
   .navigation .light {
-    margin-right: 70px;
+    margin-right: 41px;
   }
   .navigation .light img {
     -o-object-fit: contain;
     object-fit: contain;
     width: 50%;
+  }
+  .navigation .log-in .login {
+    font-size: 32px;
+  }
+  .navigation .log-in .log-black {
+    padding-top: 4px;
+    width: 53%;
   }
   .navigation .navbar a {
     font-size: 16px;
@@ -1826,7 +2068,11 @@ body {
   }
 }
 @media only screen and (min-width: 1399.98px) {
-  #media .click .watchvideo {
+  .navigation .nav .light {
+    display: flex;
+    justify-content: flex-start;
+  }
+  #media .click .watchvideo #video {
     width: 420px;
     height: 375px;
   }

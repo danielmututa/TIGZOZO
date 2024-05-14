@@ -17,7 +17,7 @@ $base-fonthone:45px;
 $base-fonthtwo: 21px;
 $base-fonttwentypx:20px;
 $base-fonttext:18px;
-.munehamb{
+.munehamb{ 
 
     .overlay {
         height: 125vh;
@@ -110,13 +110,108 @@ $base-fonttext:18px;
         .navigation .navbar a {
             color: white;
         }
-  
+
+       .login{
+        color: white;
+
+       }
+
+
       }
 
 
 
 
 
+
+
+// another ..........................................
+
+.forms{
+    
+    display: flex;
+    justify-content: center;
+    .get-in{
+padding-bottom: 50px;
+        padding-top: 50px;
+
+        .sign-in{
+            display: flex;
+            justify-content: center;
+            img{
+                object-fit: cover;
+            
+            }
+        }
+       
+    }
+
+    h2{
+        font-family:"JosefinSans-Regular" ;
+        margin-top: 20px;
+        font-size:18px ;
+    }
+    .input-form{
+        font-family:"JosefinSans-Regular" ;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+       padding: 15px; 
+        width: 500px;
+        border-radius: 0px;
+    }
+    
+        p{
+            font-family:"JosefinSans-Regular" ;
+            margin-top: 15px;
+        }
+   
+.button{
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #86827E;
+    width: 62px;
+    margin-top: 15px;
+    transition: 0.8s;
+    a{
+        font-family:"JosefinSans-Regular" ;
+        padding: 15px;
+        font-size: 10px;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.button:hover{
+    color: white;
+    
+    background-color:  #742296;
+}
+
+.backtoindex{
+    margin-top: 15px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    transition: 0.8s;
+    background-color: rgba(62, 62, 165, 0.616);
+    width: 62px;
+    .backarrow{
+        color: white;
+        font-size: 20px;
+        padding: 12px;
+    }
+}
+.backtoindex:hover{
+    color: white;
+    background-color: #742296;
+}
+}
+
+
+// end another page......................................
 
 
 
@@ -159,15 +254,27 @@ $base-fonttext:18px;
     }
     
     .light{
-        margin-right: 115px;
+        margin-right: 23px;
         display: flex;
-        justify-content: start;
+        justify-content: center;
         position: relative;
     
         img{
             object-fit: contain;
             width: 64%;
         }
+    }
+
+    .log-in{
+        .login{
+            
+           font-size: 35px;
+        }
+
+        
+        display: flex;
+        justify-content: end;
+        align-items: center;
     }
 
 
@@ -305,21 +412,18 @@ p{
     }
     .click{
        
-        .clickme{
-           
-            height: 9%;
-        }
+
         .watchvideo{
            
-            
+           #video{
+            width: 400px;
+            height: 321px;
+           } 
 
             display: flex;
             justify-content: center;
             align-items: center;
-            background-image: url("images/WhatsApp Image 2024-05-02 at 16.24.13_11af13b4.jpg");
-            height: 321px;
-            background-repeat: no-repeat;
-            background-size: cover;
+           
         }
         p{
             font-size: $base-fonttext;
@@ -698,6 +802,14 @@ p{
 @media (min-width:200px) and (max-width: 568px) {
 
     .munehamb{
+        .log-in{
+          
+            .login{
+            
+                font-size: 21px;
+                color: white;
+            }
+        }
         .overlay{
             background-color: rgb(0, 0, 0);
         }
@@ -742,7 +854,58 @@ width: 40%;
     }
 
 
+.forms{
+    overflow: hidden;
+    .get-in{
+        padding-bottom: 30px;
+    }
+   
+    h2{
+        font-size: 18px;
+    }
+    .input-form{
+        border-bottom: none;
+        background-color: #E8F0FE;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.479);
+        border-radius: 5px;
+        width: 305px;
+       
+    }
+    .blackicon{
+        display: none;
+    }
+    p{
+        margin-top: 10px;
 
+    }
+.forgetpassword{
+    margin-top: 10px;
+    display:flex;
+    justify-content: flex-end;
+}
+    .button{
+        border-radius: 5px;
+        margin-top: 15px;
+        width: 335px;
+    
+        a{
+            font-weight: 600;
+            padding: 15px;
+            font-size: 13px;
+            color: white;
+
+        }
+    }
+    .backtoindex{
+        width: 71px;
+        border-radius: 5px;
+        margin-top: 15px;
+        .backarrow{
+            font-size: 20px;
+        }
+    }
+
+}
 
 
 .navigation{
@@ -862,8 +1025,9 @@ position: relative;
         padding-top: 0px;
 
         .watchvideo{
-            height: 299px;
-            background-size: contain;
+           
+
+           
         }
     }
     .button{
@@ -1138,6 +1302,11 @@ margin-right: 20px;
                     width: 50%;
                 }
             }
+            .login{
+                margin-right: 25px;
+                font-size: 30px;
+                color: white;
+            }
             .menubger {
                 font-size: 35px;
                 color: white;
@@ -1171,6 +1340,64 @@ margin-right: 20px;
     }
     
      
+    .forms{
+
+        overflow: hidden;
+        margin-bottom: 30px;
+        .get-in{
+            padding-bottom: 40px;
+        }
+       
+        h2{
+            font-size: 18px;
+        }
+        .input-form{
+            background-color: #E8F0FE;
+            box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.479);
+            border-radius: 5px;
+            width: 689px;
+            padding: 20px 19px 20px 20px;
+            border-bottom: none;
+           
+        }
+        .blackicon{
+            display: none;
+        }
+        p{
+            margin-top: 10px;
+    
+        }
+    .forgetpassword{
+        margin-top: 10px;
+        display:flex;
+        justify-content: flex-end;
+    }
+        .button{
+            border-radius: 5px;
+            margin-top: 15px;
+            width: 728px;
+        
+            a{
+                font-weight: 600;
+                padding: 20px;
+                font-size: 13px;
+                color: white;
+    
+            }
+        }
+        .backtoindex{
+            width: 71px;
+            border-radius: 5px;
+            margin-top: 15px;
+            .backarrow{
+                font-size: 20px;
+            }
+        }
+    
+    }
+    
+
+
 
     .navigation{
         display: none;
@@ -1280,9 +1507,12 @@ margin-right: 20px;
                  margin-bottom: 20px;
              }
              .watchvideo{
-                 height: 303px;;
-                width: 340px;
-                background-size: contain;
+                #video{
+                    height: 303px;;
+                    width: 340px;
+                }
+                
+                
              }
         
          }
@@ -1548,6 +1778,11 @@ margin-right: 20px;
                         width: 52%;
                     }
                 }
+                .login{
+                    margin-right: 30px;
+                    font-size: 30px;
+                    color: white;
+                }
                 .menubger {
                     font-size: 35px;
                     color: white;
@@ -1580,7 +1815,60 @@ margin-right: 20px;
         }
         
          
-    
+        .forms{
+            overflow: hidden;
+            margin-bottom: 30px;
+
+            .get-in{
+                padding-bottom: 40px;
+            }
+           
+            h2{
+                font-size: 18px;
+            }
+            .input-form{
+                box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.479);
+                border-radius: 5px;
+                width: 712px;
+                padding: 20px 19px 20px 20px;
+               
+            }
+            .blackicon{
+                display: none;
+            }
+            p{
+                margin-top: 10px;
+        
+            }
+        .forgetpassword{
+            margin-top: 10px;
+            display:flex;
+            justify-content: flex-end;
+        }
+            .button{
+                border-radius: 5px;
+                margin-top: 15px;
+                width: 754px;
+            
+                a{
+                    font-weight: 600;
+                    padding: 20px;
+                    font-size: 13px;
+                    color: white;
+        
+                }
+            }
+            .backtoindex{
+                width: 71px;
+                border-radius: 5px;
+                margin-top: 15px;
+                .backarrow{
+                    font-size: 20px;
+                }
+            }
+        
+        }
+        
 
 
 
@@ -1689,6 +1977,16 @@ margin-right: 20px;
                  display: flex;
              }
              .click{
+
+                .watchvideo{
+               
+
+                    #video{
+                        height: 303px;;
+                        width: 340px;
+                    }
+                 }
+
                  p{
                     font-size: 14px;
                     margin-top: 15px;
@@ -1704,6 +2002,7 @@ margin-right: 20px;
                      font-size: 10px;
                  }
              }
+             
              
          }
          
@@ -1941,14 +2240,24 @@ display: none;
             }
 
             .light{
-                margin-right: 70px;
+                margin-right: 41px;
                 img {
                     -o-object-fit: contain;
                     object-fit: contain;
                     width: 50%;
                 }
             }
+.log-in{
+    .login{
+        font-size: 32px;
+    }
+}
+            .log-in .log-black {
+                padding-top: 4px;
+                width: 53%;
+            }
             .navbar{
+
                 a{
                     font-size: 16px;
                 }
@@ -1959,6 +2268,7 @@ display: none;
             }
             
         }
+        
         #home{
             overflow: hidden;
             margin-left: 40px;
@@ -2201,13 +2511,25 @@ display: none;
 
     @media only screen and  (min-width:1399.98px){
 
+
+.navigation{
+    .nav{
+        .light{
+            display: flex;
+            justify-content: flex-start;
+        }
+    }
+}
+
         #media {
             .click {
 
                 .watchvideo {
-width: 420px;
-height: 375px;
 
+                    #video{
+                        width: 420px;
+                        height: 375px;
+                    }
 
                 }
 
@@ -2234,16 +2556,14 @@ height: 375px;
             .camera {
                 p{
             right: 97px;
-                    // top: 62vh;
+                    
                 }
                 
 
             }
 
             .digital{
-                // img {
-                //     // top: 62vh;
-                // }
+                
 
             } 
 
