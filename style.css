@@ -90,80 +90,6 @@ body {
   color: white;
 }
 
-.forms {
-  display: flex;
-  justify-content: center;
-}
-.forms .get-in {
-  padding-bottom: 50px;
-  padding-top: 50px;
-}
-.forms .get-in .sign-in {
-  display: flex;
-  justify-content: center;
-}
-.forms .get-in .sign-in img {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.forms h2 {
-  font-family: "JosefinSans-Regular";
-  margin-top: 20px;
-  font-size: 18px;
-}
-.forms .input-form {
-  font-family: "JosefinSans-Regular";
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  padding: 15px;
-  width: 500px;
-  border-radius: 0px;
-}
-.forms p {
-  font-family: "JosefinSans-Regular";
-  margin-top: 15px;
-}
-.forms .button {
-  border-radius: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #86827E;
-  width: 62px;
-  margin-top: 15px;
-  transition: 0.8s;
-}
-.forms .button a {
-  font-family: "JosefinSans-Regular";
-  padding: 15px;
-  font-size: 10px;
-  text-decoration: none;
-  color: white;
-}
-.forms .button:hover {
-  color: white;
-  background-color: #742296;
-}
-.forms .backtoindex {
-  margin-top: 15px;
-  border-radius: 3px;
-  display: flex;
-  justify-content: center;
-  transition: 0.8s;
-  background-color: rgba(62, 62, 165, 0.616);
-  width: 62px;
-}
-.forms .backtoindex .backarrow {
-  color: white;
-  font-size: 20px;
-  padding: 12px;
-}
-.forms .backtoindex:hover {
-  color: white;
-  background-color: #742296;
-}
-
 .navigation {
   margin-left: 80px;
   margin-right: 80px;
@@ -197,23 +123,15 @@ body {
   width: 65%;
 }
 .navigation .light {
-  margin-right: 23px;
+  margin-right: 116px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   position: relative;
 }
 .navigation .light img {
   -o-object-fit: contain;
      object-fit: contain;
   width: 64%;
-}
-.navigation .log-in {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-}
-.navigation .log-in .login {
-  font-size: 35px;
 }
 
 #home {
@@ -1858,7 +1776,7 @@ body {
     width: 50%;
   }
   .navigation .light {
-    margin-right: 41px;
+    margin-right: 83px;
   }
   .navigation .light img {
     -o-object-fit: contain;
@@ -2077,6 +1995,7 @@ body {
 }
 @media only screen and (min-width: 1399.98px) {
   .navigation .nav .light {
+    margin-right: 126px;
     display: flex;
     justify-content: flex-start;
   }

@@ -125,95 +125,6 @@ $base-fonttext:18px;
 
 
 
-// another ..........................................
-
-.forms{
-    
-    display: flex;
-    justify-content: center;
-    .get-in{
-padding-bottom: 50px;
-        padding-top: 50px;
-
-        .sign-in{
-            display: flex;
-            justify-content: center;
-            img{
-                object-fit: cover;
-            
-            }
-        }
-       
-    }
-
-    h2{
-        font-family:"JosefinSans-Regular" ;
-        margin-top: 20px;
-        font-size:18px ;
-    }
-    .input-form{
-        font-family:"JosefinSans-Regular" ;
-        border-left: none;
-        border-right: none;
-        border-top: none;
-       padding: 15px; 
-        width: 500px;
-        border-radius: 0px;
-    }
-    
-        p{
-            font-family:"JosefinSans-Regular" ;
-            margin-top: 15px;
-        }
-   
-.button{
-    border-radius: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #86827E;
-    width: 62px;
-    margin-top: 15px;
-    transition: 0.8s;
-    a{
-        font-family:"JosefinSans-Regular" ;
-        padding: 15px;
-        font-size: 10px;
-        text-decoration: none;
-        color: white;
-    }
-}
-
-.button:hover{
-    color: white;
-    
-    background-color:  #742296;
-}
-
-.backtoindex{
-    margin-top: 15px;
-    border-radius: 3px;
-    display: flex;
-    justify-content: center;
-    transition: 0.8s;
-    background-color: rgba(62, 62, 165, 0.616);
-    width: 62px;
-    .backarrow{
-        color: white;
-        font-size: 20px;
-        padding: 12px;
-    }
-}
-.backtoindex:hover{
-    color: white;
-    background-color: #742296;
-}
-}
-
-
-// end another page......................................
-
-
 
 
 
@@ -254,9 +165,9 @@ padding-bottom: 50px;
     }
     
     .light{
-        margin-right: 23px;
+        margin-right: 116px;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         position: relative;
     
         img{
@@ -265,17 +176,7 @@ padding-bottom: 50px;
         }
     }
 
-    .log-in{
-        .login{
-            
-           font-size: 35px;
-        }
-
-        
-        display: flex;
-        justify-content: end;
-        align-items: center;
-    }
+    
 
 
 
@@ -2249,7 +2150,7 @@ display: none;
             }
 
             .light{
-                margin-right: 41px;
+                margin-right: 83px;
                 img {
                     -o-object-fit: contain;
                     object-fit: contain;
@@ -2524,6 +2425,7 @@ display: none;
 .navigation{
     .nav{
         .light{
+            margin-right: 126px;
             display: flex;
             justify-content: flex-start;
         }
